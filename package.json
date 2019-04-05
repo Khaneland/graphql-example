@@ -1,0 +1,28 @@
+{
+  "name": "graphql-example",
+  "version": "1.0.0",
+  "description": "Um exemplo de construção de api graphql com o banco de dados posrgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khaneland/graphql-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Khaneland/graphql-example/issues"
+  },
+  "homepage": "https://github.com/Khaneland/graphql-example#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.2.1",
+    "graphql-tools": "^4.0.4",
+    "knex": "^0.16.3",
+    "pg": "^7.9.0"
+  }
+}
