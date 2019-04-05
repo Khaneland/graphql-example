@@ -11,7 +11,7 @@ module.exports = {
     },
     Mutation: {
         async createUser (_, { input }) {
-            const resultado = await db('users').insert({
+            const result = await db('users').insert({
                 name: input.name,
                 email: input.email,
                 password: input.password
