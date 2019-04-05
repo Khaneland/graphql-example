@@ -9,7 +9,7 @@ const usersAttribs = `
 `
 
 const typeDefs = `
-    type Users {
+    type User {
         ${usersAttribs}
     }
 
